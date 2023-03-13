@@ -18,3 +18,11 @@ Players.PlayerAdded:Connect(function(player)
         end)
     end)
 end)
+
+
+#It gets the Players service.
+#It creates a new Part instance and sets its properties to create an orb.
+#It defines a function called spawnOrb that takes a position parameter.
+#The spawnOrb function clones the orb, sets its position to the position parameter, and adds it to the game workspace.
+#The PlayerAdded event is fired when a new player joins the game. When this happens, the CharacterAdded event is fired for that player's character.
+#The Died event is then fired when the player's character dies. When this happens, the spawnOrb function is called to spawn an orb at the player's position.
